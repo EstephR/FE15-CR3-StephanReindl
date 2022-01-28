@@ -1,1 +1,8 @@
-@import url("partials/_general.scss");/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}/*# sourceMappingURL=style.css.map */
