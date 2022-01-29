@@ -14,10 +14,13 @@
         h1 {
             font-size: 2em;
         }
+        .card-header {
+            font-size: 1.5em !important;
+        }
         .hero-button,
         .band-button {
-            font-size: 1.5em;
-            width: 100px;
+            font-size: 1.5em !important;
+            width: 100px !important;
         }
         .icontext {
             display: flex;
@@ -38,5 +41,11 @@
     @media screen and (max-width: $breakpoint-smaller) {
         h1 {
             font-size: 1.5em;
+        }
+        .card-header {
+            font-size: 1.2em !important;
+        }
+        .hero-text {
+            width: 100% !important;
         }
     }
