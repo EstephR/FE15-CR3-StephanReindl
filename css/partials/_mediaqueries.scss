@@ -1,0 +1,27 @@
+ @media screen and (max-width: $breakpoint-nav) {
+     .navbar-nav {
+         text-align: left;
+     }
+ }
+ 
+ @media screen and (max-width: $breakpoint-medium) {
+     h1 {
+         font-size: 2.5em;
+     }
+ }
+ 
+ @media screen and (max-width: $breakpoint-mediumsmall) {
+     h1 {
+         font-size: 2em;
+     }
+     .hero-button {
+         font-size: 1em;
+         width: 50px;
+     }
+ }
+ 
+ @media screen and (max-width: $breakpoint-small) {
+     .contact-img {
+         display: none;
+     }
+ }
