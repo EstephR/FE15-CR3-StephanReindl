@@ -244,10 +244,6 @@ h1 {
   .contact-img {
     display: none;
   }
-
-  .hero-text {
-    width: 500px;
-  }
 }
 @media screen and (max-width: 520px) {
   h1 {
