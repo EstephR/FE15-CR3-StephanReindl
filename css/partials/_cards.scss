@@ -1,0 +1,42 @@
+.card {
+    margin-bottom: 20px;
+    padding: 0;
+    border: $background-color 1px solid;
+    &:hover {
+        opacity: 0.7;
+    }
+    .card-header {
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        background: $background-color;
+        color: white;
+        font-size: 2em;
+    }
+    .card-img-top {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: 300ms ease-in;
+    }
+    .card-body {
+        font-size: 1.3em;
+        .date {
+            color: white;
+            background: $icon-color;
+            width: 20%;
+            text-align: center;
+        }
+    }
+    .card-footer {
+        background: $background-color!important;
+        color: white;
+        font-size: 1.5em;
+    }
+}
+
+.band-button {
+    @include button();
+    border: $icon-color 1px solid;
+    margin: 0 auto;
+    margin-bottom: 20vh;
+}
