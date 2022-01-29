@@ -225,13 +225,32 @@ h1 {
     font-size: 2em;
   }
 
-  .hero-button {
+  .hero-button,
+.band-button {
+    font-size: 1.5em;
+    width: 100px;
+  }
+
+  .icontext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .icontext p {
     font-size: 1em;
-    width: 50px;
   }
 }
 @media screen and (max-width: 576px) {
   .contact-img {
     display: none;
+  }
+
+  .hero-text {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 520px) {
+  h1 {
+    font-size: 1.5em;
   }
 }/*# sourceMappingURL=style.css.map */
