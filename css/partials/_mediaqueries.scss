@@ -1,51 +1,90 @@
-    @media screen and (max-width: $breakpoint-nav) {
-        .navbar-nav {
-            text-align: left;
+@media screen and (max-width: $breakpoint-nav) {
+    .navbar-nav {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: $breakpoint-hero) {
+    .icontext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        div {
+            font-size: 1em;
         }
     }
-    
-    @media screen and (max-width: $breakpoint-medium) {
-        h1 {
-            font-size: 2.5em;
-        }
+}
+
+@media screen and (max-width: $breakpoint-contact) {
+    .form-container>h1 {
+        text-align: center;
     }
-    
-    @media screen and (max-width: $breakpoint-mediumsmall) {
-        h1 {
-            font-size: 2em;
-        }
-        .card-header {
-            font-size: 1.5em !important;
-        }
-        .hero-button,
-        .band-button {
-            font-size: 1.5em !important;
-            width: 100px !important;
-        }
-        .icontext {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            p {
-                font-size: 1em;
-            }
-        }
-    }
-    
-    @media screen and (max-width: $breakpoint-small) {
+    .form-flex-container {
+        flex-direction: column;
+        align-items: center;
         .contact-img {
-            display: none;
+            width: 100% !important;
         }
-    }
-    
-    @media screen and (max-width: $breakpoint-smaller) {
-        h1 {
-            font-size: 1.5em;
-        }
-        .card-header {
-            font-size: 1.2em !important;
-        }
-        .hero-text {
+        .mainform {
             width: 100% !important;
         }
     }
+}
+
+@media screen and (max-width: $breakpoint-medium) {
+    h1 {
+        font-size: 2.5em;
+    }
+    .overlay {
+        width: 100% !important;
+    }
+    .hero-text {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: $breakpoint-mediumsmall) {
+    .card-header {
+        font-size: 1.5em !important;
+    }
+    .hero-button,
+    .band-button {
+        font-size: 1.5em !important;
+        width: 100px !important;
+    }
+    .icontext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: $breakpoint-small) {
+    .contact-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: $breakpoint-smaller) {
+    h1 {
+        font-size: 2em;
+    }
+    .card-header {
+        font-size: 1.2em !important;
+    }
+    .hero-text {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: $breakpoint-smallest) {
+    .overlay>h5 {
+        font-size: 1em;
+    }
+    .overlay>p {
+        font-size: 1.5em;
+    }
+    .icontext>div {
+        font-size: 1em !important;
+    }
+}
