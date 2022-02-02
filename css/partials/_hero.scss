@@ -1,11 +1,11 @@
 @mixin button {
-    margin-top: 4%;
+    margin-top: 2%;
     background: $icon-color;
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     border-radius: 5px;
     border-style: none;
-    width: 130px;
+    width: 120px;
     padding: 5px;
     transition: 200ms ease-in;
     &:hover {
@@ -31,6 +31,7 @@
         background: rgba(0, 0, 0, 0.527);
         color: white;
         width: 50%;
+        height: 47%;
         padding: 20px;
         text-align: center;
         top: 52%;

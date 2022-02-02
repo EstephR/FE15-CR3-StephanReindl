@@ -18,9 +18,8 @@ console.log(`The price is ${priceGraveyard} €`);
 console.log(`The price is ${priceMonsterMagnet} €`);
 console.log(`The price is ${priceBlackMountain} €`);
 
-function calculateInvoice(bandStage1, bandStage2, bandStage3) {
-    var sum = bandStage1 + bandStage2 + bandStage3;
-    return sum;
+function calculateInvoice(bandStage1, bandStage2, bandStage3) {;
+    return bandStage1 + bandStage2 + bandStage3;;
 }
 
 function studentInvoice(bandStage1, bandStage2, bandStage3) {
@@ -29,7 +28,6 @@ function studentInvoice(bandStage1, bandStage2, bandStage3) {
 }
 
 function invoiceText(price) {
-    var price = price;
     var text = `You have spent ${price} € on Festival Tickets!`
     return text;
 }
