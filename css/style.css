@@ -62,7 +62,7 @@ h1 {
   background: rgba(0, 0, 0, 0.527);
   color: white;
   width: 50%;
-  height: 47%;
+  height: 35%;
   padding: 20px;
   text-align: center;
   top: 52%;
@@ -75,6 +75,7 @@ h1 {
 .hero .hero-text .hero-icon .icontext {
   display: flex;
   justify-content: center;
+  width: 33%;
 }
 .hero .hero-text .hero-icon .icontext div {
   font-size: 1.5em;
@@ -82,7 +83,7 @@ h1 {
 .hero .hero-text .hero-icon .icontext .icon {
   width: 20px;
   height: 20px;
-  margin-right: 5px;
+  margin: 0 5px;
 }
 .hero .hero-text .hero-button {
   margin-top: 2%;
@@ -91,7 +92,7 @@ h1 {
   font-size: 1.5em;
   border-radius: 5px;
   border-style: none;
-  width: 120px;
+  width: 25%;
   padding: 5px;
   transition: 200ms ease-in;
 }
@@ -144,7 +145,7 @@ h1 {
   font-size: 1.5em;
   border-radius: 5px;
   border-style: none;
-  width: 120px;
+  width: 25%;
   padding: 5px;
   transition: 200ms ease-in;
   border: #e7570f 1px solid;
@@ -304,7 +305,7 @@ h1 {
     display: none;
   }
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 550px) {
   h1 {
     font-size: 2em;
   }
@@ -316,6 +317,10 @@ h1 {
   .hero-text {
     width: 100% !important;
   }
+
+  .icontext > div {
+    font-size: 1em !important;
+  }
 }
 @media screen and (max-width: 420px) {
   .overlay > h5 {
@@ -324,9 +329,5 @@ h1 {
 
   .overlay > p {
     font-size: 1.5em;
-  }
-
-  .icontext > div {
-    font-size: 1em !important;
   }
 }/*# sourceMappingURL=style.css.map */

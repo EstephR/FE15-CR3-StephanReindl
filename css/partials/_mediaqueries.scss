@@ -75,6 +75,9 @@
     .hero-text {
         width: 100% !important;
     }
+    .icontext>div {
+        font-size: 1em !important;
+    }
 }
 
 @media screen and (max-width: $breakpoint-smallest) {
@@ -83,8 +86,5 @@
     }
     .overlay>p {
         font-size: 1.5em;
-    }
-    .icontext>div {
-        font-size: 1em !important;
     }
 }
